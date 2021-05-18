@@ -1,0 +1,73 @@
+
+body{
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+#box{
+    position: absolute;
+    top: 15%;
+    left: 42%;
+    width: 300px;
+    height: 500px;
+    
+}
+h2{
+    border-bottom: 2px solid pink;
+    color: white;
+    display: inline;
+}
+.class input{
+    border: 0px;
+    background: none;
+    outline: none;
+    padding: 10px;
+    margin: 8px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: transparent;
+    font-size: 17px;
+}
+#input_content{
+    text-align: center;
+}
+.horizontal{
+    width: 200px;
+    margin: 0px;
+    margin-left: 50px;
+}
+.class{
+    margin: 15px;
+}
+.class i{
+    color: white;
+}
+.btn{
+    border: 5px solid purple;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: tomato;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    background: none;
+}
+.btn:hover{
+    background-color: purple;
+    color: rgb(252, 138, 97);
+    opacity: 0.2;
+}
+.class span{
+    color: grey;
+    font-size: 17px;
+}
+#gender_cont{
+margin-left: -45px;
+}
